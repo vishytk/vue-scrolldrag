@@ -1,3 +1,11 @@
+<script lang="ts">
+export default {
+  directives: {
+    dragscroll: dragscroll,
+  },
+};
+</script>
+
 <script setup lang="ts">
 // const doSomething = (e) => {
 //   console.log(e.detail);
